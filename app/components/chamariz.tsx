@@ -1,7 +1,7 @@
 export function Chamariz (){
     return(
-        <div className="flex justify-center">
-            <div className="flex gap-5 justify-between flex-col items-center w-full max-w-[1080px] px-5 lg:flex-row">
+        <div className="flex justify-center lg:h-screen">
+            <div className="flex  justify-between flex-col items-center w-full max-w-[1080px] px-5 lg:flex-row">
                 <div className="font-bold my-10">
                     <h1 className="text-5xl lg:text-7xl md:text-6xl">
                         Proposta de
