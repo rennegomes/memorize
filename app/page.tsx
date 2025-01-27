@@ -1,3 +1,4 @@
+import { Apresentacao } from "./components/apresentacao";
 import { Header } from "./components/cabecalho";
 import { Chamariz } from "./components/chamariz";
 import { Saudacoes } from "./components/saudacoes";
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Chamariz />
       <Saudacoes />
+      <Apresentacao />
     </div>
   )
 }
