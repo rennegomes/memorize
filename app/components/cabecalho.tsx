@@ -10,6 +10,8 @@ export function Header(){
                 <div className="flex gap-10 items-center font-medium max-md:text-sm max-sm:hidden">
                     <a className="cursor-pointer">Apresentação</a>
                     <a className="cursor-pointer">Projetos</a>
+                    <a className="cursor-pointer">Agendamento</a>
+                    <a className="cursor-pointer">Contato</a>
                     <button className="bg-[#E74915] px-5 py-3 rounded-full border border-white text-white font-bold">Contato</button>
                 </div>
             </div>
