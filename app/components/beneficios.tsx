@@ -9,7 +9,7 @@ export function Beneficios(){
                         <p className="border px-6 py-3 max-md:p-2 rounded-full">profissional</p>
                         <p>para o seu empreendimento:</p>
                     </div>
-                    <div className="flex justify-between w-full mt-20 font-medium max-md:flex-col max-md:items-center max-md:gap-5">
+                    <div className="grid grid-cols-4 justify-between gap-5 mt-20 font-medium max-md:grid-cols-1 max-md:justify-center">
                         <div className="flex items-center flex-col text-center bg-[#DF8AE4] text-black rounded-full max-w-[150px] min-h-60">
                             <img src="/estrelaLaranja.svg" className="w-10 my-5" />
                             <p className="mx-2">Uma marca memorável e inesquecível.</p>

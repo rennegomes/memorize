@@ -2,6 +2,7 @@ import { Apresentacao } from "./components/apresentacao";
 import { Beneficios } from "./components/beneficios";
 import { Header } from "./components/cabecalho";
 import { Chamariz } from "./components/chamariz";
+import { Projetos } from "./components/projetos";
 import { Saudacoes } from "./components/saudacoes";
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
       <Saudacoes />
       <Apresentacao />
       <Beneficios />
+      <Projetos titulo="Projetos" subtitulo="Identidade visual" primeiraFoto="/identidade1.png" segundaFoto="/identidade2.png" />
+      <Projetos titulo="Projetos" subtitulo="Midias sociais" primeiraFoto="/social1.jpg" segundaFoto="/social2.jpg" />
     </div>
   )
 }
